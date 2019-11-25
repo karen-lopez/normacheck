@@ -18,8 +18,8 @@ class CreateCommentsTable extends Migration
             $table->text('details');
             $table->string('responsible', 100);
             $table->string('place', 100);
-            $table->unsignedInteger('check_list_id');
-            $table->foreign('check_list_id')->references('id')->on('check_lists');
+            $table->unsignedInteger('user_check_id');
+            $table->foreign('user_check_id')->references('id')->on('user_check');
             $table->unsignedInteger('evidence_id')->nullable();
             $table->foreign('evidence_id')->references('id')->on('evidence');
             $table->timestamps();

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 24-11-2019 a las 23:10:32
+-- Tiempo de generación: 25-11-2019 a las 17:34:14
 -- Versión del servidor: 5.7.24
 -- Versión de PHP: 7.2.14
 
@@ -68,12 +68,12 @@ CREATE TABLE IF NOT EXISTS `comments` (
   `details` text COLLATE utf8mb4_unicode_ci NOT NULL,
   `responsible` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `place` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `check_list_id` int(10) UNSIGNED NOT NULL,
+  `user_check_id` int(10) UNSIGNED NOT NULL,
   `evidence_id` int(10) UNSIGNED DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `comments_check_list_id_foreign` (`check_list_id`),
+  KEY `comments_user_check_id_foreign` (`user_check_id`),
   KEY `comments_evidence_id_foreign` (`evidence_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -104,21 +104,21 @@ CREATE TABLE IF NOT EXISTS `migrations` (
   `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `migrations`
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1, '2014_10_12_000000_create_users_table', 1),
-(2, '2014_10_12_100000_create_password_resets_table', 1),
-(3, '2019_11_25_025106_create_comments_table', 1),
-(4, '2019_11_25_031158_create_evidence_table', 1),
-(5, '2019_11_25_031416_create_check_lists_table', 1),
-(6, '2019_11_25_031607_create_user_checks_table', 1),
-(7, '2019_11_25_031755_create_norm_controls_table', 1),
-(8, '2019_11_25_031932_create_all_checks_table', 1);
+(9, '2014_10_12_000000_create_users_table', 1),
+(10, '2014_10_12_100000_create_password_resets_table', 1),
+(11, '2019_11_25_025106_create_comments_table', 1),
+(12, '2019_11_25_031158_create_evidence_table', 1),
+(13, '2019_11_25_031416_create_check_lists_table', 1),
+(14, '2019_11_25_031607_create_user_checks_table', 1),
+(15, '2019_11_25_031755_create_norm_controls_table', 1),
+(16, '2019_11_25_031932_create_all_checks_table', 1);
 
 -- --------------------------------------------------------
 
