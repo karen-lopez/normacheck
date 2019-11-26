@@ -14,7 +14,12 @@
                         </div>
                     @endif
                     //example of add component
-                    <example-component></example-component>
+                    <div class="container">
+                      <div class="card text-center">
+                        <h5>Nueva lista de chequeo</h5>
+                        <button type="button" name="button" class="button w-25">+</button>
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>

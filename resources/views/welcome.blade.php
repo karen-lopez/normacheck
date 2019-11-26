@@ -9,7 +9,9 @@
 
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+        <div class="card">
+          @section('header')
+            <h1>Cabecera de la web (master)</h1>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -23,10 +25,15 @@
                     @endauth
                 </div>
             @endif
+          @show
+          <hr>
+          <div class="container">
+            @yield('content')
+          </div>
 
-            <div class="content">
-                
-            </div>
-        </div>
+          @section('footer')
+            <hr>
+            <h2>Footer de la web (master)</h2>
+          @show
     </body>
 </html>
