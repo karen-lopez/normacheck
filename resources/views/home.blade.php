@@ -2,27 +2,21 @@
 
 @section('content')
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-
-                <div class="container">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-                    //example of add component
-                    <div class="container">
-                      <div class="card text-center">
-                        <h5>Nueva lista de chequeo</h5>
-                        <button type="button" name="button" class="button w-25">+</button>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	  <div class="row">
+	    <div class="col-lg-6">
+	      <div class="modal-dialog text-justify" >
+			<div class="col-sm-12 main-section">
+				<div class="modal-content">
+					<div class="col-sm-12 container">
+						<h1><p class="sansserif text-white">NORMA CHECK</p></h1>
+						<p class="serif">
+							Norma Check proporciona a sus clientes un Checklist en el que podrá identificar los requerimientos incluidos en la norma técnica colombiana NTC-ISO-IEC 27001 para la realización de una auditoria interna sobre Sistemas de Gestión de la Seguridad de la Información.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	    </div>
+	  </div>
 </div>
 @endsection

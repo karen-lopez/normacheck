@@ -25,6 +25,6 @@ Route::middleware(['auth'])->group(function() {
 
 	//user
   Route::get('user/profile','UserController@show')->name('profile');
-  Route::get('user/checks/{id}','CheckListsController@checklists')->name('checklist');
+  Route::get('user/checks{id}','CheckListsController@checklists')->name('checklist');
 
 });

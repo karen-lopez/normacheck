@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\DB;
 use App\check_list;
 use App\all_check;
 use App\norm_control;
+use App\user_check;
 
 use App\User;
 
@@ -47,17 +48,9 @@ class CheckListsController extends Controller
   }
 
   public function checklists($id){
-    //$checklist2 = check_list::find($id)->user_checks()->select('all_check_id')->get();
     $userChecklist = check_list::find($id)->user_checks;
-    $checklist = check_list::find($id)->user_checks()->select('all_check_id')->get();
-    foreach ($checklist as $check) {
-        $idAllCheck = $check['all_check_id'];
-        $allChecks[] = $this->allCheck($idAllCheck);
-    }
-    //echo $checklist2[0]['all_check_id'];
-    //echo $allChecks[0];
     return view('checkLists.checklist', ['checklist' => $userChecklist, 'user' => Auth::user(),
-                                          'allChecks' => $allChecks]);
+                                          'allChecks' => all_check::all()]);
   }
 
   public static function allCheck($id){
@@ -72,8 +65,16 @@ class CheckListsController extends Controller
   }
 
   public static function addList(Request $request){
+    $userId = Auth::user()->id;
     $nameList = $request->input('nameList');
-    return "el nombre es $nameList";
+    $allCheck = all_check::all();
+    $checklistId = check_list::insertGetId(['name' => $nameList, 'user_id' => $userId, 'created_at' => date("Y/m/d")]);
+    foreach ($allCheck as $value) {
+      user_check::insertOrIgnore(['state' => 0, 'all_check_id' => $value['id'],
+                              'check_list_id' => $checklistId, 'created_at' => date("Y/m/d")]);
+    }
+
+    return redirect()->route('checklist', ['id' => $checklistId]);
   }
 
 

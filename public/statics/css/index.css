@@ -1,0 +1,44 @@
+body{
+	background: url(../img/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top: 25%;
+	padding: 0;
+}
+
+.modal-content{
+	/*background-color: #F2B858;7C9EA9, A2B9C1*/
+	background-color: #A2B9C1;
+	opacity: .85;
+	padding 0 20px; 
+	box-shadow: 0px 0px 3px #848484;
+	border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: white;
+}
+/*  Este es para el elemento activo */
+.navbar-light .navbar-nav .active>.nav-link  {
+ color: orange;
+}
+
+.footer {
+	   position: fixed;
+	   left: 0;
+	   bottom: 0;
+	   width: 100%;
+	   background-color: #515A5D;
+	   color: white;
+	   text-align: center;
+}
+
+p.serif{
+	font-family: 'Delius', cursive;
+}
+p.sansserif{
+	font-family: 'Cagliostro', sans-serif;
+}

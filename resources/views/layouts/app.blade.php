@@ -76,5 +76,15 @@
             @yield('content')
         </main>
     </div>
+    <!--Footer-->
+	<div class="footer text-right">
+		<a class="navbar-brand" href="https://normacheck.000webhostapp.com/">
+		  	<p class="sansserif">Landing Page</p>
+		</a>
+  		<a class="navbar-brand" href="https://www.instagram.com/normacheckutp/">
+		  	<img src="statics/img/instagram.png" alt="Site Logo" width="30">
+		</a>
+	</div>
+	<!--Footer-->
 </body>
 </html>

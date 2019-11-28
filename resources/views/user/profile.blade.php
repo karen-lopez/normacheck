@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Profile</title>
+  <title>Perfil</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
@@ -27,17 +27,12 @@
         <p>{{ $list->name}}</p>
       @endforeach
     @endif
-    <button type="button" name="add" onclick="myFunction()">Agregar Lista</button>
-    <script>
-      function myFunction(){
-
-      }
-    </script>
-    {{$added}}
-    <form class="form" action="{{action('CheckListsController@addList')}}" method="post">
+    <br>
+    <form class="form" action="{{action('CheckListsController@addList')}}" method="POST">
+      @csrf
       <label for="name">Escriba un nombre para la lista</label>
       <input type="name" name="nameList">
-      <input type="submit" value="enviar"/>
+      <input type="submit" value="Agregar"/>
     </form>
   </section>
 

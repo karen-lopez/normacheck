@@ -22,7 +22,8 @@
   <section class="container">
     @if(isset($checklist))
       <h3>Tus checks: </h3>
-      @foreach ($allChecks as $check)
+      @foreach ($allChecks as $index => $check)
+        <p>{{$checklist[$index]['state']}}</p>
         <p>{{ $check->description}}</p>
       @endforeach
     @endif
