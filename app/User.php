@@ -37,7 +37,7 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function check_list(){
+    public function check_lists(){
       return $this->hasMany('App\check_list');
     }
 }

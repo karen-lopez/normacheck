@@ -1,3 +1,4 @@
+<?php use \App\Http\Controllers\CheckListsController; ?>
 <!doctype html>
 <html lang="es">
 
@@ -26,6 +27,18 @@
         <p>{{ $list->name}}</p>
       @endforeach
     @endif
+    <button type="button" name="add" onclick="myFunction()">Agregar Lista</button>
+    <script>
+      function myFunction(){
+
+      }
+    </script>
+    {{$added}}
+    <form class="form" action="{{action('CheckListsController@addList')}}" method="post">
+      <label for="name">Escriba un nombre para la lista</label>
+      <input type="name" name="nameList">
+      <input type="submit" value="enviar"/>
+    </form>
   </section>
 
   <footer class="footer">

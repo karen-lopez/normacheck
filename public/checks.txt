@@ -1,0 +1,254 @@
+A.5.1.1
+Se definen los objetivos y alcance de la politica de la seguridad de la información.
+La política de la seguridad de la información se encuentra alineada con la estrategia y objetivos de la entidad.
+La política de la seguridad de la información fue debidamente aprobada y socializada al interior de la entidad por la alta dirección.
+A.5.1.2
+Asignación de las responsabilidades generales para la gestión de la seguridad de la información, a roles definidos.
+Asignacion de las responsabilidades específicas para la gestión de la seguridad de la información, a roles definidos.
+La política define qué es seguridad de la información.
+Procesos para manejar las desviaciones de la política de la seguridad de la información.
+Procesos para manejar las excepciones de la política de la seguridad de la información.
+A.6.1.1
+Los roles frente a la ciberseguridad han sido establecidos.
+Las responsabilidades frente a la ciberseguridad han sido establecidas.
+Los roles y responsabilidades de seguridad de la información han sido coordinados y alineados con los roles internos.
+Los proveedores, clientes, socios y empleados de seguridad de la información  entienden sus roles y responsabilidades.
+Están claros los roles y responsabilidades para la detección de incidentes.
+Apoyo de la alta dirección para el SGSI.
+Están identificados los responsables para la protección de los activos.
+Están identificadas las responsabilidades para la protección de los activos.
+Se cuenta con un presupuesto formalmente asignado a las actividades del SGSI
+A.6.1.2
+Esta prohibido el acceso, la modificación o el uso de activos sin autorización ni detección.
+Revisión de los rastros de auditoría.
+Supervisión de cargos superiores.
+A.6.1.3
+Estan establecidos  los procedimientos  que especifican cuándo se debería contactar a las autoridades.
+Estan establecidos los procedimientos  que especifiquen  a través de que autoridades se debería contactar a las autoridades.
+Se han  reportado eventos o incidentes de SI de forma consistente.
+A.6.1.4
+Las personas responsables de la SI cuentan con membresía en grupos o foros de interés especial en seguridad de la información.
+A.6.1.5
+Identificar los riesgos de seguridad de la información.
+Tratar los riesgos de seguridad de la información como parte del proyecto.
+Los objetivos de la seguridad de la información estan incluidos en los objetivos del proyecto.
+Valoración de los riesgos de seguridad de la información.
+La seguridad de la información es parte de todas las fases de la metodología del proyecto aplicada.
+A.6.2.1
+La entidad asigna dispositivos móviles a sus funcionarios.
+Se tiene permitido el ingreso de dispositivos móviles a la entidad.
+Existe una política para el uso de dispositivos móviles en la entidad.
+La política de dispositivos móviles considera el registro de los dispositivos móviles para uso de la entidad.
+La política de dispositivos móviles considera los requisitos de la protección física.
+La política de dispositivos móviles considera las restricciones para la instalación de software.
+La política de dispositivos móviles considera los requisitos para las versiones de software de dispositivos móviles y para aplicar parches.
+La política de dispositivos móviles considera la restricción de la conexión a servicios de información.
+La política de dispositivos móviles considera los controles de acceso.
+La política de dispositivos móviles considera técnicas criptográficas.
+La política de dispositivos móviles considera la protección contra software malicioso.
+La política de dispositivos móviles considera deshabilitación remota, borrado o cierre
+La política de dispositivos móviles considera copias de respaldo.
+La política de dispositivos móviles considera uso de servicios y aplicaciones web.
+La política de dispositivos móviles permite el uso de dispositivos móviles de propiedad personal.
+La política de dispositivos móviles para uso personal considera la separación entre el uso privado y de la entidad de los dispositivos.
+La política de dispositivos móviles para uso personal considera que los usuarios hayan firmado un acuerdo de usuario final.
+A.6.2.2
+El personal puede realizar actividades de teletrabajo.
+La política de teletrabajo considera la seguridad física existente en el sitio del teletrabajo.
+La política de teletrabajo considera los requisitos de seguridad de las comunicaciones.
+La política de teletrabajo considera el suministro de acceso al escritorio virtual.
+La política de teletrabajo considera la amenaza de acceso no autorizado a información o a recursos, por parte de otras personas que usan el mismo equipo.
+La política de teletrabajo considera el uso de redes domésticas y requisitos o restricciones sobre la configuración de servicios de red inalámbrica
+La política de teletrabajo considera acuerdos de licenciamiento de software.
+La política de teletrabajo considera requisitos de firewall y de protección contra software malicioso.
+La política de teletrabajo considera el suministro de equipo adecuado y de muebles de almacenamiento para las actividades de teletrabajo.
+La política de teletrabajo considera una definición del trabajo permitido.
+La política de teletrabajo considera el suministro de equipos de comunicación adecuados.
+La política de teletrabajo considera la revocación de la autoridad y de los derechos de acceso, y la devolución de los equipos cuando las actividades del teletrabajo finalicen.
+A.7.1.1
+El proceso de selección de los funcionarios y contratistas revisa referencias satisfactorias.
+El proceso de selección de los funcionarios y contratistas verifica la de la hoja de vida del solicitante incluyendo certificaciones académicas y laborales.
+El proceso de selección de los funcionarios y contratistas confirma de las calificaciones académicas y profesionales declaradas.
+El proceso de selección de los funcionarios y contratistas verifica la información crediticia o de antecedentes penales.
+El proceso de selección de los funcionarios y contratistas revisa que el individuo sea confiable para desempeñar el rol.
+El proceso de selección de los funcionarios y contratistas considera  verificaciones adicionales más detalladas (por ejemplo estudio de seguridad, polígrafo, visita domiciliaria).
+El proceso de selección de los funcionarios y contratistas revisa que la información de todos los candidatos para cargos dentro de la organización se maneje de acuerdo a la ley de protección de datos personales.
+A.7.1.2
+Términos y condiciones del empleo definidos.
+A.7.2.1
+La dirección evidencia que los empleados y contratistas estén debidamente informados sobre sus roles y responsabilidades de seguridad de la información.
+La dirección evidencia que a los empleados y contratistas se les suministren las directrices que establecen las expectativas de seguridad de la información de sus roles dentro de la Entidad.
+La dirección evidencia que los empleados y contratistas logren un nivel de toma de conciencia sobre seguridad de la información.
+La dirección evidencia que los empleados y contratistas tienen continuamente las habilidades y calificaciones apropiadas.
+La dirección evidencia que los empleados y contratistas reciban capacitación en forma regular.
+La dirección evidencia que los empleados y contratistas cuentan con un canal para reporte anónimo de incumplimiento de las políticas o procedimientos de seguridad de la información (“denuncias internas”).
+A.7.2.2
+Se han desarrollado campañas, elaboración de folletos y boletines.
+Los planes de toma de conciencia y comunicación, de las políticas de seguridad y privacidad de la información, están aprobados y documentados, por la alta Dirección.
+Los nuevos empleados y contratistas son objeto de sensibilización en SI.
+Actualización de los programas de toma de conciencia.
+Listado de asistentes al programa y el tema impartido.
+Se incluyen en los temas de toma de conciencia los procedimientos básicos de seguridad de la información.
+De acuerdo a NIST, los funcionarios con roles privilegiados entienden sus responsabilidades y roles.
+A.7.2.3
+Proceso disciplinario
+A.7.3.1
+Acuerdo de confidencialidad a la terminación o cambio de responsabilidades de empleo
+A.8.1.1
+Inventario de activos
+A.8.1.2
+El propietario de los activos se asegura de que los activos están inventariados
+El propietario de los activos se asegura de que los activos están clasificados y protegidos apropiadamente
+El propietario de los activos define y revisa las restricciones y clasificaciones de acceso a activos importantes, teniendo en cuenta las políticas de control de acceso aplicables.
+El propietario de los activos se asegura del manejo apropiado del activo cuando es eliminado o destruido.
+A.8.1.3	Existe una política para el uso aceptable de los activos.
+La política para el uso aceptable de los activos es conocida por los empleados que usan activos de la entidad o tienen acceso a ellos.
+A.8.1.4
+Devolución de activos
+Transferencia de la información a la entidad.
+Borrado seguro de la información de la entidad.
+Conocimientos importantes para las operaciones regulares de la organización por parte de un empleado, documentados y transferidos a la entidad.
+A.8.2.1
+Las convenciones y criterios de clasificación de la información son claros y estan documentados
+Esta definido el intervalo de tiempo en el que debe revisarse la clasificación de un activo.
+La clasificación de la información se valorara analizando la confidencialidad, integridad y disponibilidad.
+A.8.2.2
+Aplica a activos en formatos físicos y electrónicos (etiquetas físicas, metadatos)
+Esquema de clasificación establecido.
+Las etiquetas se pueden reconocer fácilmente.
+Los empleados y contratistas conocen el procedimiento de etiquetado.
+A.8.2.3
+Restricciones de acceso que soportan los requisitos de protección para cada nivel de clasificación.
+Registro formal de los receptores autorizados de los activos.
+Protección de copias de información temporal o permanente a un nivel coherente con la protección de la información original.
+Almacenamiento de los activos de TI de acuerdo con las especificaciones de los fabricantes.
+Marcado claro de todas las copias de medios para la atención del receptor autorizado.
+De acuerdo a NIST la información almacenada (at rest) y en tránsito debe ser protegida.
+A.8.3.1
+El contenido de cualquier medio reusable que se vaya a retirar de la organización se debe remover de forma que no sea recuperable.
+Autorización para retirar los medios de la organización.
+Registro de los retiros de medios con el fin de mantener un rastro de auditoría.
+Técnicas criptográficas para proteger los datos que se encuentran en los medios removibles.
+Copias guardadas de los datos valiosos en medios separados.
+Unidades de medios removibles habilitadas.
+Seguimiento a la transferencia de información a estos medios
+A.8.3.2
+Se garantiza que los medios a desechar o donar, no contienen información confidencial que pueda ser consultada y copiada por personas no autorizadas.
+A.8.3.3
+El uso de un transporte o servicios de mensajería son confiables.
+Procedimientos para verificar la identificación de los servicios de mensajería.
+Se protege el contenido contra cualquier daño físico o ambiental que pudiera presentarse durante el tránsito.
+Registros que dejen evidencia del transporte donde se identifique el contenido de los medios
+A.9.1.1
+La política de control de acceso contiene los requisitos de seguridad para las aplicaciones del negocio.
+La política de control de acceso contiene las políticas para la divulgación y autorización de la información, y los niveles de seguridad de la información y de clasificación de la información.
+La política de control de acceso contiene la coherencia entre los derechos de acceso y las políticas de clasificación de información de los sistemas y redes.
+La política de control de acceso contiene la legislación pertinente y cualquier obligación contractual concerniente a la limitación del acceso a datos o servicios.
+La política de control de acceso contiene la gestión de los derechos de acceso en un entorno distribuido y en red, que reconoce todos los tipos de conexiones disponibles.
+La política de control de acceso contiene la separación de los roles de control de acceso, (solicitud de acceso, autorización de acceso, administración del acceso).
+La política de control de acceso contiene los requisitos para la autorización formal de las solicitudes de acceso.
+La política de control de acceso contiene los requisitos para la revisión periódica de los derechos de acceso.
+La política de control de acceso contiene el retiro de los derechos de acceso.
+La política de control de acceso contiene el ingreso de los registros de todos los eventos significativos concernientes al uso y gestión de identificación de los usuarios, e información de autenticación secreta, en el archivo permanente.
+La política de control de acceso contiene los roles de acceso privilegiado.
+A.9.1.2
+La política del uso de redes incluye  las redes y servicios de red a los que se permite el acceso.
+La política del uso de redes incluye los procedimientos de autorización para determinar a quién se permite el acceso a qué redes y servicios de red.
+La política del uso de redes incluye los controles y procedimientos de gestión para proteger el acceso a las conexiones de red y a los servicios de red.
+La política del uso de redes incluye los medios usados para acceder a las redes y servicios de red ( uso de VPN o redes inalámbricas.
+La política del uso de redes incluye los requisitos de autenticación de usuarios para acceder a diversos servicios de red.
+La política del uso de redes incluye el seguimiento del uso de servicios de red.
+A.9.2.1
+Identificaciones únicas para los usuarios.
+Se deshabilitan o retiran inmediatamente las identificaciones de los usuarios que han dejado la organización.
+Se identifica y eliminan o deshabilitan las identificaciones de usuario redundantes.
+Se asegura que las identificaciones de usuario redundantes no se asignen a otros usuarios.
+A.9.2.2
+Autorización del propietario del sistema de información o del servicio para el uso del sistema de información o servicio.
+El nivel de acceso otorgado es apropiado a las políticas de acceso y es coherente con otros requisitos, tales como separación de deberes.
+Los derechos de acceso no están activados antes de que los procedimientos de autorización estén completos.
+Registro central de los derechos de acceso suministrados a una identificación de usuario para acceder a sistemas de información y servicios
+Adaptar los derechos de acceso de usuarios que han cambiado de roles o de empleo.
+Retirar o bloquear inmediatamente los derechos de acceso de los usuarios que han dejado la organización.
+Revisión de los derechos de acceso con los propietarios de los sistemas de información o servicios.
+A.9.2.3
+Identificar los derechos de acceso privilegiado asociados con cada sistema o proceso, (sistema operativo, sistema de gestión de bases de datos, y cada aplicación) y los usuarios a los que es necesario asignar
+Definir los derechos de acceso privilegiado a usuarios con base en la necesidad de uso y caso por caso, alineada con la política de control de acceso.
+Mantener un proceso de autorización y un registro de todos los privilegios asignados.
+Definir los requisitos para la expiración de los derechos de acceso privilegiado
+Establecer los derechos de acceso privilegiado a través de una identificación de usuario diferente de la usada para las actividades regulares del negocio.
+Tener las competencias de los usuarios con derechos de acceso privilegiado y su revisión periódica para verificar si están en línea con sus deberes.
+Establecer  procedimientos genéricos para evitar el uso no autorizado de identificaciones de usuario de administración genérica, de acuerdo con las capacidades de configuración del sistema.
+Establecer la confidencialidad de la información de autenticación secreta
+A.9.2.4
+Firma de una declaración para la confidencialidad de la información de autenticación secreta personal.
+Todos los usuarios mantienen su propia información de autenticación secreta.
+Procedimientos para verificar la identidad de un usuario antes de proporcionarle la nueva información de autenticación secreta de reemplazo o temporal.
+La información de autenticación secreta temporal se suministra a los usuarios de una manera segura.
+La información de autenticación secreta temporal es única para un individuo y no es fácil de adivinar.
+Los usuarios deben acusar recibo de la información de autenticación secreta.
+La información de autenticación secreta por defecto, del fabricante, se modifica después de la instalación de los sistemas o software.
+A.9.2.5
+Se examinan los derechos de acceso de los usuarios después de cualquier cambio, promoción, cambio a un cargo a un nivel inferior, o terminación del empleo.
+Los derechos de acceso de usuario se revisan y reasignan cuando pasan de un rol a otro dentro de la misma organización.
+Las autorizaciones para los derechos de acceso privilegiado estan definidas.
+Asegurar que no se hayan obtenido privilegios no autorizados.
+Revisar y registrar los cambios a las cuentas privilegiadas.
+A.9.2.6
+Retiro o ajuste de los derechos de acceso
+A.9.3.1
+Mantener la confidencialidad de la información de autenticación secreta, asegurándose de que no sea divulgada a ninguna otra parte, incluidas las personas con autoridad.
+Se evita llevar un registro inseguro de autenticación secreta.
+Se puede cambiar la información de autenticación secreta siempre que haya cualquier indicio de que se pueda comprometer la información.
+Se usan contraseñas seguras como información de autenticación secreta.
+Se establece la protección apropiada de contraseñas cuando se usan éstas como información de autenticación secreta.
+No usar la misma información de autenticación secreta para propósitos de negocio y otros diferentes de estos.
+A.9.4.1
+Menús para controlar el acceso a las funciones de sistemas de aplicaciones.
+Se puede controlar a qué datos puede tener acceso un usuario particular.
+Se pueden controlar los derechos de acceso de los usuarios, (a leer, escribir, borrar y ejecutar).
+Se pueden controlar los derechos de acceso de otras aplicaciones.
+Se puede  limitar la información contenida en los elementos de salida.
+Se proveen controles de acceso físico o lógico para el aislamiento de aplicaciones, datos de aplicaciones o sistemas críticos.
+A.9.4.2
+El procedimiento de ingreso seguro incluye no visualizar los identificadores del sistema o de la aplicación sino hasta que el proceso de ingreso se haya completado exitosamente.
+El procedimiento de ingreso seguro incluye visualizar una advertencia general acerca de que sólo los usuarios autorizados pueden acceder al computador
+El procedimiento de ingreso seguro incluye evitar los mensajes de ayuda durante el procedimiento de ingreso, que ayudarían a un usuario no autorizado
+El procedimiento de ingreso seguro incluye validar la información de ingreso solamente al completar todos los datos de entrada.
+El procedimiento de ingreso seguro incluye proteger contra intentos de ingreso mediante fuerza bruta.
+El procedimiento de ingreso seguro incluye llevar un registro con los intentos exitosos y fallidos.
+El procedimiento de ingreso seguro incluye declarar un evento de seguridad si se detecta un intento potencial o una violación exitosa de los controles de ingreso.
+El procedimiento de ingreso seguro incluye registrar la fecha y la hora del ingreso previo exitoso
+El procedimiento de ingreso seguro incluye registrar los detalles de cualquier intento de ingreso no exitoso desde el último ingreso exitoso.
+El procedimiento de ingreso seguro incluye no visualizar una contraseña que se esté ingresando.
+El procedimiento de ingreso seguro incluye no transmitir contraseñas en un texto claro en una red.
+El procedimiento de ingreso seguro incluye terminar sesiones inactivas después de un período de inactividad definido.
+Procedimiento de ingreso seguro incluye restringir los tiempos de conexión para brindar seguridad adicional para aplicaciones de alto riesgo y para reducir la ventana de oportunidad para acceso no autorizado.
+A.9.4.3
+Se cumple con el uso de identificaciones y contraseñas de usuarios individuales para mantener la rendición de cuentas.
+Se permite que los usuarios seleccionen y cambien sus propias contraseñas e incluyan un procedimiento de confirmación para permitir los errores de entrada.
+Exigir por que se escojan contraseñas de calidad.
+Se debe forzar a los usuarios cambiar sus contraseñas cuando ingresan por primera vez.
+Exigir por que se cambien las contraseñas en forma regular, según sea necesario.
+Se debe llevar un registro de las contraseñas usadas previamente, e impedir su reusó.
+No visualizar contraseñas en la pantalla cuando se está ingresando.
+Almacenar los archivos de las contraseñas separadamente de los datos del sistema de aplicaciones.
+Almacenar y transmitir las contraseñas en forma protegida.
+A.9.4.4
+Utilizar procedimientos de identificación, autenticación y autorización para los programas utilitarios.
+Separar los programas utilitarios del software de aplicaciones.
+Limitar el uso de programas utilitarios al número mínimo práctico de usuarios confiables y autorizados.
+Autorizar el uso adhoc de programas utilitarios.
+Limitar la disponibilidad de los programas utilitarios.
+Registrar el uso de los programas utilitarios.
+Definir y documentar los niveles de autorización para los programas utilitarios.
+Retirar o deshabilitar todos los programas utilitarios innecesarios.
+No poner a disposición los programas utilitarios a los usuarios que tengan acceso a aplicaciones en sistemas en donde se requiera la separación de deberes.
+A.9.4.5
+Definir en donde sea posible, las librerías de fuentes de programas no se deben mantener en los sistemas operativos.
+Gestionar los códigos fuente de los programas y las librerías de las fuentes de los programas se debería hacer de acuerdo con procedimientos establecidos.
+Establecer que el personal de soporte deben tener acceso restringido a las librerías de las fuentes de los programas.
+Definir que la actualización de las librerías de fuentes de programas y elementos asociados, y la entrega de fuentes de programas a los programadores sólo se deben hacer una vez que se haya recibido autorización apropiada.
+Establecer que los listados de programas se deben mantener en un entorno seguro.
+Conservar un registro de auditoría de todos los accesos a la librerías de fuentes de programas.
+Mantener y copiar las bibliotecas de fuentes de programas a través de procedimientos estrictos de control de cambios.

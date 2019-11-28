@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 25-11-2019 a las 17:34:14
+-- Tiempo de generación: 26-11-2019 a las 21:10:37
 -- Versión del servidor: 5.7.24
 -- Versión de PHP: 7.2.14
 
@@ -54,7 +54,15 @@ CREATE TABLE IF NOT EXISTS `check_lists` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `check_lists_user_id_foreign` (`user_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `check_lists`
+--
+
+INSERT INTO `check_lists` (`id`, `name`, `user_id`, `created_at`, `updated_at`) VALUES
+(1, 'mi primer check list', 1, NULL, NULL),
+(2, 'una check list', 99999999, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -168,7 +176,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `users_email_unique` (`email`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Volcado de datos para la tabla `users`
+--
+
+INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Karen Lopez', 'stefanny0214@gmail.com', NULL, '$2y$10$f633K42rmuu5piBvOI7HW.jgkgpMnEwZnOGWC5ipq9wAw.SznwvAa', NULL, '2019-11-26 05:50:39', '2019-11-26 05:50:39');
 
 -- --------------------------------------------------------
 

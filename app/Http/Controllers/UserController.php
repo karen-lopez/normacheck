@@ -19,23 +19,14 @@ class UserController extends Controller
         $this->middleware('auth');
     }
 
-    public function checkLists($lists){
-      $userLists = [];
-      $userId = Auth::user()->id;
-      foreach ($lists as $list) {
-        if ($list->user_id == $userId) {
-          $userLists[] = $list;
-        }
-      }
-      return $userLists;
-    }
+
 
     public function show()
     {
-        $lists = $this->checkLists(check_list::all());
+        $id = Auth::user()->id;
+        $lists = User::find($id)->check_lists;
         return view('user.profile', ['user' => Auth::user(), 'lists' => $lists]);
     }
-
 
 
 }
