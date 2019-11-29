@@ -1,6 +1,7 @@
 body{
 	background: url(../img/work.jpg) no-repeat center center fixed;
 	background-size: cover;
+	font-family: "Delius";
 }
 
 .main-section{

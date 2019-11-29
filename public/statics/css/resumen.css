@@ -13,9 +13,10 @@ body{
 .modal-content{
 	/*background-color: #F2B858;7C9EA9, A2B9C1*/
 	background-color: #A2B9C1;
-	opacity: .85;
+	opacity: .95;
 	padding 0 20px; 
 	box-shadow: 0px 0px 3px #848484;
+	border-radius: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -43,15 +44,11 @@ p.sansserif{
 	font-family: 'Cagliostro', sans-serif;
 }
 
-#menu * { list-style:none;}
-#menu li{ line-height:180%;}
-#menu li a{color:#222; text-decoration:none;}
-#menu li a:before{ content:"\025b8"; color:#ddd; margin-right:4px;}
-#menu input[name="list"] {
-	position: absolute;
-	left: -1000em;
-	}
-#menu label:before{ content:"\025b8"; margin-right:4px;}
-#menu input:checked ~ label:before{ content:"\025be";}
-#menu .interior{display: none;}
-#menu input:checked ~ ul{display:block;}
+#container{
+	height: 750px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../img/web.jpg) no-repeat center center fixed;
+	background-size: cover;
+}

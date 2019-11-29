@@ -19,12 +19,16 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/addList', 'CheckListsController@addList');
-
+Route::post('/show', 'CheckListsController@show');
 
 Route::middleware(['auth'])->group(function() {
 
 	//user
   Route::get('user/profile','UserController@show')->name('profile');
-  Route::get('user/checks{id}','CheckListsController@checklists')->name('checklist');
+  Route::get('user/checklist','CheckListsController@checklists')->name('checklist');
+
+  //check lists
+  Route::get('checkLists/checks{id}','CheckListsController@userChecks')->name('checks');
+
 
 });

@@ -26,16 +26,6 @@ color: white;
  color: orange;
 }
 
-.footer {
-	   position: fixed;
-	   left: 0;
-	   bottom: 0;
-	   width: 100%;
-	   background-color: #515A5D;
-	   color: white;
-	   text-align: center;
-}
-
 p.serif{
 	font-family: 'Delius', cursive;
 }
@@ -43,6 +33,14 @@ p.sansserif{
 	font-family: 'Cagliostro', sans-serif;
 }
 
+#container{
+	height: 750px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../img/chek.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
 
 #menu * { list-style:none;}
 #menu li{ line-height:180%;}
@@ -56,3 +54,4 @@ p.sansserif{
 #menu input:checked ~ label:before{ content:"\025be";}
 #menu .interior{display: none;}
 #menu input:checked ~ ul{display:block;}
+

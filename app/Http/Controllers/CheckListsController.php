@@ -47,9 +47,15 @@ class CheckListsController extends Controller
     }
   }
 
-  public function checklists($id){
+  public function checklists(){
+    $id = Auth::user()->id;
+    $lists = User::find($id)->check_lists;
+    return view('user.checklist', ['checklist' => $lists, 'user' => Auth::user()]);
+  }
+
+  public function userChecks($id){
     $userChecklist = check_list::find($id)->user_checks;
-    return view('checkLists.checklist', ['checklist' => $userChecklist, 'user' => Auth::user(),
+    return view('checkLists.checks', ['checklist' => $userChecklist, 'user' => Auth::user(),
                                           'allChecks' => all_check::all()]);
   }
 
@@ -74,7 +80,11 @@ class CheckListsController extends Controller
                               'check_list_id' => $checklistId, 'created_at' => date("Y/m/d")]);
     }
 
-    return redirect()->route('checklist', ['id' => $checklistId]);
+    return redirect()->route('checks', ['id' => $checklistId]);
+  }
+
+  public function show($id){
+    return redirect()->route('checks', ['id' => $checklistId]);
   }
 
 
